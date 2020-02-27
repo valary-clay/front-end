@@ -1,0 +1,37 @@
+.farm-card__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edit-farm-card__heading {
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+}
+
+.form__element {
+    width: 100%;
+    padding: 1rem 0.5rem 1rem 0.5rem !important;
+    border: none !important;
+    letter-spacing: 0.2px !important;
+    color: #4a4a4a !important;
+    background: rgba(0,0,0,0.03) !important;
+}
+
+.form__element--non-editable {
+    color: rgba(74,74,74,0.7) !important;
+    padding: 0rem 1rem 0.5rem 0rem ;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.form__label {
+    color: #4a4a4a;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+
+.form__section {
+    margin-bottom: 20px;
+    position: relative;
+}

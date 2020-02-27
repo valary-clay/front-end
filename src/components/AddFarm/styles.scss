@@ -1,0 +1,39 @@
+.add-farm-section {
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin: 2em 1.5em 4em;
+
+    .notification {
+      top: 0.1em;
+    }
+
+}
+
+
+.card-main {
+    box-shadow: 0 5px 16px 0 rgba(0,0,0,0.1);
+    background-color: #fff;
+    margin-bottom: 40px;
+    padding: 40px 60px;
+    position: relative;
+}
+
+.add-farm-card__heading {
+  font-weight: bold;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.3px;
+}
+
+.button--primary {
+    background-color: #6abfc3 !important;
+    color: #fff !important;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    &:hover {
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+  }
+}

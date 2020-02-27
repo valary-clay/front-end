@@ -1,0 +1,85 @@
+.profile-content {
+  padding: 2em 2em;
+  background: #f1f1f1;
+  height: 100vh;
+}
+
+.profile-main-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 2em;
+}
+
+.profile-info  div.name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0.7em;
+  margin-bottom: 1.1em;
+}
+
+.email span {
+  display: block !important;
+}
+
+.profile-info div.email {
+  font-size: 1.1em;
+  padding-bottom: 0.3em;
+  color: #011bc3;
+}
+
+.email span.address {
+  color: #011bc3;
+}
+
+.profile-info > div + div {
+  margin-top: 0.6em;
+}
+
+.profile-info span {
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+.change-btn {
+  padding-left: 1rem;
+}
+
+.change-btn button {
+  border: none;
+  background: #fff;
+  color: #011bc3;
+  cursor: pointer;
+}
+
+.account-info div:nth-child(1) {
+  font-weight: bold;
+  color: #011bc3;
+  font-size: 1.1rem;
+}
+
+.account-info div:nth-child(2) {
+  margin-top: 1.6em;
+  color: #6c757d;
+}
+
+.profile-info__bank-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+}

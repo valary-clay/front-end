@@ -1,0 +1,50 @@
+.dashboard-home {
+  max-height: 100vh;
+
+  @media (max-height: 768px) {
+	  min-height: 100vh;
+  }
+}
+
+.dashboard-home__funded-farms {
+  overflow-x: hidden;
+  height: 50vh;
+}
+
+.dashboard-card {
+  margin: 0.5em;
+
+  h1 {
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    padding-bottom: 0.5em;
+  }
+}
+
+.farm span {
+  display: inline-block;
+  margin-right: 0.5em;
+
+}
+
+.farm {
+  align-items: center;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    span + button {
+      margin-top: 0.6em;
+    }
+  }
+}
+
+.dashboard-home .farm {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  width: 100% !important;
+  justify-content: space-between;
+}
+
+.farm-wrapper__field {
+  font-weight: bold;
+  color: #4a4a4a;
+  letter-spacing: 0.3px;
+}

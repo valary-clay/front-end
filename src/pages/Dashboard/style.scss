@@ -1,0 +1,39 @@
+.dashboard {
+
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 3rem;
+
+  @media (max-width: 768px) {
+    max-height: auto;
+  }
+}
+
+.sidebar {
+  height: 100vh;
+  color: #fff;
+  position: fixed;
+  width: 20vw;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.main-section {
+  width: 78vw;
+  position: relative;
+  left: 20vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    width: 100vw;
+    padding: 1em;
+    position: static;
+    overflow-y: auto;
+  }
+}

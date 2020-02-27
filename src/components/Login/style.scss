@@ -1,0 +1,60 @@
+.auth-page {
+	background-color: #011b33;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	overflow: auto;
+	padding-bottom: 50px;
+}
+
+.logo {
+	padding: 30px;
+	text-align: center;
+}
+
+.logo a {
+	font-weight: bold;
+	font-size: 1.6em;
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.logo a:hover {
+  color: #aaa;
+}
+
+.auth-container {
+	width: 450px;
+	margin: 0 auto;
+	position: relative;
+	right: 0;
+	left: 0;
+	top: 20px;
+	max-width: 95%;
+}
+
+.auth-form {
+	background: #fff;
+	border-radius: 3px;
+	padding: 35px 35px 30px;
+	position: relative;
+	width: 100%;
+}
+
+.auth-title {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: 500;
+	line-height: 1.1;
+}
+
+.auth-footer > div:nth-child(2) {
+	margin-top: 5px;
+}
